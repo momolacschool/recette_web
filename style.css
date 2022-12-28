@@ -1,0 +1,166 @@
+*{
+    overflow: auto ;
+}
+
+body{
+    background: #82C3EC;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    
+}
+
+.div{
+    padding:20px;
+}
+
+p.recette{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    margin-top: -20px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+
+.div_rct{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+}
+
+.ligne{
+    width: 100px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+}
+
+.boite_img_tab{
+    position: relative; 
+    
+}
+
+table.boite_img_tab{
+    position: absolute;
+    bottom: 0; 
+    width: 100%; 
+    color: white; 
+    background-color: #6c829dc0; 
+    height: 80px;
+}
+
+table.boite_img_tab td{
+    text-align: center;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+table.boite_img_tab th{
+    font-size: 16px;
+    vertical-align: bottom;
+    padding: 6px;
+}
+
+img.boite_img_tab{
+    display: block;
+    max-height: 500px;
+    object-fit: cover;
+    min-height: 300px;
+    background-color: lightslategray;
+}
+
+.div_body{
+    background-color: #fff;
+    margin: 60px 10% 60px 10%;
+    padding: -10px 30px 30px 30px;
+    margin-top: 90px;
+    min-width: 450px;
+    box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 10px;
+
+}
+p.description{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 15px;
+    
+    
+}
+.div_description{
+    text-align: center;
+    width: 100%;
+    
+}
+
+.colonne{
+    width: 45%;
+    margin-top: 20px;
+    
+}
+.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6c829dc0;
+    padding-bottom: 5px;
+}
+
+.colonne1{
+    display: inline-block;
+    margin-right: 10%;
+}
+.colonne2{
+    float: right;
+    
+}
+
+.ingredients p{
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 0;
+    border: 1px solid lightblue;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+table.preparation p.numero {
+    background-color: #6c829dc0;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin:0px;
+}
+
+table.preparation td{
+    vertical-align: top;  
+}
+table.preparation td.pre-etape{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px; 
+}
+
+table.preparation tr{
+    height: 40px;
+}
+
+
+
+
